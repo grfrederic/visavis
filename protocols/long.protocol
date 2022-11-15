@@ -1,0 +1,8 @@
+run    -3d...-24h                              []
++IFN 1000 U/ml
+run          -24h...-6h                        [1h]
+run                 -6h...0d                   [3h]
++RSV 0.01 MOI
+run                       0d...1d              [1h]
+run                            1d...2d         [2h]
+run                                 2d...4d    [4h]

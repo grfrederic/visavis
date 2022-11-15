@@ -1,0 +1,4 @@
++RSV 0.01 MOI
+run    0d...16h              [4h]
+run         16h...1d         [8h]
+run               1d...3d    [24h]

@@ -1,0 +1,10 @@
+*.pkl
+*.npy
+*.png
+Cargo.lock
+simulations
+target
+trash
+private
+__sim*
+__pycache__
