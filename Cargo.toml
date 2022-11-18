@@ -7,7 +7,7 @@ repository = "https://gitlab.com/kochanczyk/infection"
 license = "BSD-3-clause"
 version = "1.0.0"
 authors = ["Marek Kochanczyk <mkochan@ippt.pan.pl>", "Frederic Grabowski <fgrabows@ippt.pan.pl>"]
-edition = "2022"
+edition = "2021"
 
 [dependencies]
 rand = { version = "0.8" }

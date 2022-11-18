@@ -1,5 +1,5 @@
 EXECUTABLE_BINARY_PATH := "./target/release/vis-a-vis"
-EXECUTABLE_BINARY_VERSION := $(shell $(EXECUTABLE_BINARY_PATH) --version)
+EXECUTABLE_BINARY_VERSION := $(shell sed -n 's/^version = //p' Cargo.toml)
 DEPLOY_DEST_DIR_NAME := "visavis-${EXECUTABLE_BINARY_VERSION}"
 DEPLOY_DEST_DIR_PATH := "deploy/${DEPLOY_DEST_DIR_NAME}"
 DEPLOY_DEST_ARCHIVE_NAME := "visavis-${EXECUTABLE_BINARY_VERSION}.tar.bz2"
@@ -34,8 +34,8 @@ archive:
 	@bash -c 'if [ -d visavis ]; then rm -fR deploy/visavis; fi'
 
 	@mkdir -p                  deploy/visavis
-	@cp -a  ReadMe.md          deploy/visavis/
-	@cp -a  License.txt        deploy/visavis/
+	@cp -a  README.md          deploy/visavis/
+	@cp -a  LICENSE            deploy/visavis/
 	@cp -ar protocols          deploy/visavis/
 
 	@mkdir                     deploy/visavis/parameters

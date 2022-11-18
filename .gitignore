@@ -4,6 +4,7 @@
 Cargo.lock
 simulations
 target
+deploy
 trash
 private
 __sim*
