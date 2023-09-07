@@ -1,3 +1,5 @@
+![image](https://github.com/grfrederic/visavis/assets/26434160/c0ab759c-fd78-4264-9237-1f33828465bd)
+
 Overview
 --------
 
@@ -20,7 +22,7 @@ a predefined set of states for molecules of several chemical species. Some of
 these states are associated with higher level or higher activity of these
 molecules. The lattice has periodic boundary conditions.
 
-*VIS-A-VIS* was used in the paper "[Antagonism between viral infection and innate immunity at the single-cell level](https://dx.doi.org/TODO)", *TODO:JOURNAL* (2022). See citing section below.
+*VIS-A-VIS* was used in the paper "[Antagonism between viral infection and innate immunity at the single-cell level](https://doi.org/10.1371/journal.ppat.1011597)", *PLOS Pathogens* (2023). See citing section below.
 
 
 Compilation
@@ -131,9 +133,9 @@ Citing
 
 The simulator, written by Marek Kochanczyk and Frederic Grabowski from the
 Institute of Fundamental Technological Research of the Polish Academy of
-Sciences (IPPT PAN, Warsaw, Poland), features the research article "Antagonism
-between viral infection and innate immunity at the single-cell level"
-published in *TODO:JOURNAL* (2022). If you use the code for research purposes,
+Sciences (IPPT PAN, Warsaw, Poland), features the research article
+"[Antagonism between viral infection and innate immunity at the single-cell level](https://doi.org/10.1371/journal.ppat.1011597)"
+published in *PLOS Pathogens* (2023). If you use the code for research purposes,
 please consider citing this work.
 
 
