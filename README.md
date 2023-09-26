@@ -42,7 +42,7 @@ $ cargo build --release
 ```
 
 The software has been tested to successfully compile under the current stable
-toolchain (shipping rustc version 1.64.0). If libglib-2.0-dev and libcairo2-dev
+toolchain (shipping rustc version 1.64.0). If libglib2.0-dev and libcairo2-dev
 are installed, all dependencies (rust crates) should be retrieved and compiled
 on the fly.
 
